@@ -6,9 +6,82 @@
 
     </head>
     <body>
-        <h1>DANK Haus Virtual Tour</h1>>
-        <h2>Lost German Chicago</h2>
-        <h2>Museum Collection</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Virtual Museum Tour</h1>>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Lost German Chicago</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Highlights from the Collection</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-header">Typewriter</h3>
+                            <img class="card-img-top" src="img/typewriter.jpg" alt="Typewriter keys">
+                            <div class="card-text">This typewriter was manufactured in ....</div>
+                            <button class="btn btn-warning">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-header">Beer Stein</h3>
+                            <img class="card-img-top" src="img/beer-stein.jpg" alt="Beer stein">
+                            <div class="card-text">"The person who drinks beer sleeps well. Whoever sleeps well does not sin." This cup's rhyming message encourages beer drinking as a healthy and moral pastime.</div>
+                            <button class="btn btn-warning" data-toggle="modal" data-target="#steinModal">Learn more.</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!--modals-->
+
+<div class="modal fade" role="dialog" id="typewriterModal">
+    <div class="modal-dialog" role="dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Typewriter</h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Fact 1 about typewriter.</li>
+                    <li>Fact 2 about typewriter.</li>
+                    <li>Fact 3 about typewriter.</li>
+                </ul>
+                <img src="img/typewriter.jpg" alt="Typewriter">
+                <!--table or grid here-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" role="dialog" id="steinModal">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Beer Stein</h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
     <footer>
         <div class="container">
             <div class="row">
