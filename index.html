@@ -4,12 +4,14 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Virtual Museum Tour</h1>>
+                    <h1>Virtual Museum Tour</h1>
                 </div>
             </div>
             <div class="row">
@@ -23,23 +25,29 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-header">Typewriter</h3>
-                            <img class="card-img-top" src="img/typewriter.jpg" alt="Typewriter keys">
-                            <div class="card-text">This typewriter was manufactured in ....</div>
-                            <button class="btn btn-warning">Learn more</button>
+                            <h3 class="card-title">Olympia Typewriter</h3>
+                            <h4 class="card-subtitle text-muted">Circa 1930</h4>
+                            <br>
+                            <img class="card-img-top img-fluid" src="img/typewriter.jpg" alt="Typewriter keys">
+                            <br>
+                            <div class="card-text">This "Olympia Model 7" typewriter (German: <em>Schreibmaschine</em>) was manufactured in 1930 by the German company Europa Schreibmaschinen AG.</div>
+                            <br>
+                            <div class="text-center">
+                                <button class="btn btn-warning" data-toggle="modal" data-target="#typewriterModal">Learn more</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-header">Beer Stein</h3>
                             <img class="card-img-top" src="img/beer-stein.jpg" alt="Beer stein">
                             <div class="card-text">"The person who drinks beer sleeps well. Whoever sleeps well does not sin." This cup's rhyming message encourages beer drinking as a healthy and moral pastime.</div>
-                            <button class="btn btn-warning" data-toggle="modal" data-target="#steinModal">Learn more.</button>
+                            <button class="btn btn-warning" data-toggle="modal" data-target="#steinModal">Learn more</button>
                         </div>
                     </div>
                 </div>
@@ -49,22 +57,23 @@
 
 <!--modals-->
 
-<div class="modal fade" role="dialog" id="typewriterModal">
+<div class="modal fade" id="typewriterModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog" role="dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title">Typewriter</h2>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title" id="typewriterModalLabel">Typewriter</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>Fact 1 about typewriter.</li>
-                    <li>Fact 2 about typewriter.</li>
-                    <li>Fact 3 about typewriter.</li>
+                    <li>In the back is a clear glass window, letting you see inside the machine.</li>
+                    <li>This typewriter was found by the donor in his home, presumably left by the previous owner, a Jewish chemist who came to the U.S. after WWI.</li>
                 </ul>
-                <img src="img/typewriter.jpg" alt="Typewriter">
-                <!--table or grid here-->
+                <img src="img/typewriter.jpg" class="cardDetails" alt="Typewriter">
             </div>
+            <div class="modal-footer"></div>
         </div>
     </div>
 </div>

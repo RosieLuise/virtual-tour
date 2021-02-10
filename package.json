@@ -2,7 +2,7 @@
   "name": "virtual-tour",
   "version": "1.0.0",
   "description": "Virtual tour of the DANK Haus museum",
-  "main": "start.html",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
