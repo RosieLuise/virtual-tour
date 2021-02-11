@@ -29,12 +29,10 @@
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">Olympia Typewriter</h3>
-                            <h4 class="card-subtitle text-muted">Circa 1930</h4>
+                            <h4 class="card-subtitle text-muted font-weight-light">Circa 1930</h4>
                             <br>
                             <img class="card-img-top img-fluid" src="img/typewriter.jpg" alt="Typewriter keys">
-                            <br>
                             <div class="card-text">This "Olympia Model 7" typewriter (German: <em>Schreibmaschine</em>) was manufactured in 1930 by the German company Europa Schreibmaschinen AG.</div>
-                            <br>
                             <div class="text-center">
                                 <button class="btn btn-warning" data-toggle="modal" data-target="#typewriterModal">Learn more</button>
                             </div>
@@ -71,9 +69,11 @@
                     <li>In the back is a clear glass window, letting you see inside the machine.</li>
                     <li>This typewriter was found by the donor in his home, presumably left by the previous owner, a Jewish chemist who came to the U.S. after WWI.</li>
                 </ul>
-                <img src="img/typewriter.jpg" class="cardDetails" alt="Typewriter">
+                <img src="img/typewriter.jpg" class="modal-img img-fluid" alt="Typewriter">
             </div>
-            <div class="modal-footer"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
 </div>
@@ -111,5 +111,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     </body>
 </html>
