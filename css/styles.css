@@ -1,20 +1,18 @@
 .card-img-top {
     border: 1px solid lightgray;
     border-radius: 4px;
-    padding: 6px;
+    padding: 0px;
+    margin: 12px 0px 12px 0px;
     width: 100%;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 12px 0px 12px 0px;
 }
 
-.card-text {
-    margin: 10px 10px 10px 10px;
-}
-
-h4 {
-
+h3 {
+    color: #00303f;
 }
 
 .modal-img {
@@ -22,4 +20,37 @@ h4 {
     border-radius: 4px;
     padding: 6px;
     width: 100%;
+}
+
+footer {
+    background-color: #cae4db;
+    padding: 16px;
+}
+
+header {
+    background-color: #cae4db;
+    padding: 16px 6px 16px 6px;
+    height: 400px;
+}
+
+button {
+    margin: 12px 0px 0px 0px;
+}
+
+.header-img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.logo {
+    max-width: 120px;
+    height: auto;
+}
+
+h1 {
+    text-align: left;
+}
+
+.card-text {
+    text-align: justify;
 }
