@@ -24,10 +24,10 @@ h3 {
 
 footer {
     background-color: #cae4db;
-    padding: 16px;
+
 }
 
-header {
+headert {
     background-color: #cae4db;
     padding: 16px 6px 16px 6px;
     height: 400px;
@@ -51,6 +51,22 @@ h1 {
     text-align: left;
 }
 
-.card-text {
-    text-align: justify;
+h2 {
+    margin: 20px auto;
+    text-align: center;
+    color: #00303f;
+}
+
+#museumCarousel {
+    margin:  12px auto;
+}
+
+.img-lgc {
+    height: 300px;
+}
+
+.jumbotron-fluid {
+    background-color: #cae4db;
+    padding: 16px 6px 16px 6px;
+    height: 400px;
 }
