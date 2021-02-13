@@ -1,9 +1,22 @@
+body {
+    font-family: "Didact Gothic", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Oxygen", serif;
+    color: #00303f;
+}
+
 .card-img-top {
     border: 1px solid lightgray;
     border-radius: 4px;
     padding: 0px;
     margin: 12px 0px 12px 0px;
     width: 100%;
+}
+
+img {
+    border-radius: 4px;
 }
 
 .card {
@@ -13,6 +26,14 @@
 
 h3 {
     color: #00303f;
+    font-size: 35px;
+    background: #cae4db; 
+}
+
+h4 {
+    color: #00303f;
+    font-size: 25px;
+    font-weight: bold
 }
 
 .modal-img {
@@ -23,7 +44,8 @@ h3 {
 }
 
 footer {
-    background-color: #cae4db;
+    background-color: #cdac81;
+    padding: 20px;
 
 }
 
@@ -49,12 +71,14 @@ button {
 
 h1 {
     text-align: left;
+    font-size: 55px;
 }
 
 h2 {
-    margin: 20px auto;
+    margin: 20px auto 20px;
     text-align: center;
     color: #00303f;
+    font-size: 45px;
 }
 
 #museumCarousel {
@@ -69,18 +93,29 @@ h2 {
     background-color: #cae4db;
     padding: 16px 6px 16px 6px;
     height: 400px;
+    margin-bottom: 100px;
 }
 
 .lgc-img {
     width: 300px;
     float: right;
+    margin: 0px auto 20px;
 }
 
-.lgc-section {
+.journey-section {
     border: 5px solid #00303f;
     padding: 20px;
 }
 
 .lgc-row {
     margin: 0px auto 0px;
+}
+
+.donateBtn {
+    width: 150px;
+}
+
+.btn-warning {
+    background-color: #cae4db;
+    color: #00303f;
 }
