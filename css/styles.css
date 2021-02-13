@@ -70,3 +70,17 @@ h2 {
     padding: 16px 6px 16px 6px;
     height: 400px;
 }
+
+.lgc-img {
+    width: 300px;
+    float: right;
+}
+
+.lgc-section {
+    border: 5px solid #00303f;
+    padding: 20px;
+}
+
+.lgc-row {
+    margin: 0px auto 0px;
+}
